@@ -1,0 +1,46 @@
+body{
+    background-color:#e8eaf6;
+}
+.imagenes{
+    overflow: hidden;
+}
+a{
+    color: black;
+}
+h1 {
+    color: white;
+
+}
+nav {
+    opacity: 0.7;
+    position: absolute;
+    z-index:2;
+    height: 100px;
+    top:0;
+    width: 100%;
+    position: fixed;
+}
+.main {
+    color: initial;
+    background-color: #9fa8da;
+    font-family: "Archivo Narrow";
+}
+
+nav ul {
+    margin-right: 100px; 
+}
+nav ul li {
+    display: inline;
+}
+.nuestros {
+    padding-top: 0;
+    background-color: #bbdefb;
+}
+nav ul li:hover {
+    background: black;
+    color: white;
+    border-radius: 25%;
+}
+#productos{
+    margin-top:0;
+}
